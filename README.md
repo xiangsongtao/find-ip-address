@@ -7,7 +7,7 @@ $ npm install
 $ npm run start
 ```
 
-## Get ip address
+## Copy and modify
 
 ```
 # ----------------------------------------------
