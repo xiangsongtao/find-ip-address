@@ -13,6 +13,7 @@ const hostList = [
     "api.github.com",
     "codeload.github.com",
     "raw.githubusercontent.com",
+    "camo.githubusercontent.com"
 ];
 
 (async () => {
