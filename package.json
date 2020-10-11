@@ -1,0 +1,23 @@
+{
+  "name": "find-ip-address",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiangsongtao/find-ip-address.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiangsongtao/find-ip-address/issues"
+  },
+  "homepage": "https://github.com/xiangsongtao/find-ip-address#readme",
+  "dependencies": {
+    "puppeteer": "^2.1.0"
+  }
+}
