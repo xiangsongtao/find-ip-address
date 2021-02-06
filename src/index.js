@@ -44,8 +44,8 @@ function format(result) {
     console.log(`# ----- Copy This To Modify /etc/host File -----`)
     console.log(`# ----------------------------------------------`)
     for (const info of result) {
-        if (info.ip) {
-            console.log(`${info.ip}${Array(17 - info.ip.length).join(' ')}${info.origin}`)
+        if (info.ip && /(\d+)\.(\d+).(\d+).(\d+)/.test(info.ip)) {
+            console.log(`${info.ip}${Array(17 - (info.ip || []).length).join(' ')}${info.origin}`)
         } else {
             console.log(`# Error -> ${info.origin}`)
         }
